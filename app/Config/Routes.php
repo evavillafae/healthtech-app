@@ -60,3 +60,4 @@ $routes->post('guardar', 'Pacientes::guardar');
 $routes->get('borrar/(:num)', 'Pacientes::borrar/$1');
 $routes->get('editar/(:num)', 'Pacientes::editar/$1');
 $routes->post('actualizar', 'Pacientes::actualizar');
+$routes->get('detalle/(:num)', 'Pacientes::detalle/$1');

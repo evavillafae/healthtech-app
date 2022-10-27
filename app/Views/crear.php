@@ -2,16 +2,6 @@
 
     <h1>Crear historia de paciente</h1>
 
-    <?php if(session('mensaje')){?>
-    <div class="alert alert-danger" role="alert">
-        <?php
-            echo session('mensaje');
-        ?>
-    </div>
-    <?php
-    }
-    ?>
-
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Por favor ingresa los datos del paciente</h5>
@@ -22,12 +12,16 @@
                         <input id="name" value="<?=old('name')?>"  class="form-control" type="text" name="name">
                     </div>
                     <div class="form-group">
+                        <label for="lastname">Apellido:</label>
+                        <input id="lastname" value="<?=old('lastname')?>" class="form-control" type="text" name="lastname">
+                    </div>
+                    <div class="form-group">
                         <label for="date_birth">Date of Birth</label>
                         <input id="date_birth" value="<?=old('date_birth')?>"  class="form-control" type="date" name="date_birth">
                     </div>
                     <div class="form-group">
                         <label for="gender">Gender</label>
-                        <select id="gender" value="<?=old('gender')?>"  class="form-control" name="gender">
+                        <select id="gender" value="<?=old('gender')?>" required class="form-control" name="gender">
                         <option selected>Select one</option>
                             <option value="Femenino">Femenino</option>
                             <option value="Masculino">Masculino</option>
@@ -41,10 +35,11 @@
                         <label for="weight">Weight</label>
                         <input id="weight" value="<?=old('weight')?>"  class="form-control" type="number" name="weight" min="0" step=".01">
                     </div>
+                    <br />
                     <div class="btn-group" role="group" aria-label="Button group">
-                        
+                        <button class="btn btn-primary" type="submit">Crear</button>
                     </div>
-                    <button class="btn btn-primary" type="submit">Guardar</button>
+                    
                 </form>
             </p>
         </div>

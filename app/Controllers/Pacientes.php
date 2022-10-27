@@ -28,6 +28,7 @@ class Pacientes extends Controller{
 
         $validacion = $this->validate([
             'name'=>'required|min_length[3]',
+            'lastname'=>'required|min_length[3]',
             'date_birth'=>'required',
             'gender'=>'required',
             'height'=>'required',
@@ -43,6 +44,7 @@ class Pacientes extends Controller{
 
         $datos=[
             'name'=>$this->request->getVar('name'),
+            'lastname'=>$this->request->getVar('lastname'),
             'date_birth'=>$this->request->getVar('date_birth'),
             'gender'=>$this->request->getVar('gender'),
             'height'=>$this->request->getVar('height'),
@@ -73,6 +75,7 @@ class Pacientes extends Controller{
         $paciente= new Paciente();
         $datos=[
             'name'=>$this->request->getVar('name'),
+            'lastname'=>$this->request->getVar('lastname'),
             'date_birth'=>$this->request->getVar('date_birth'),
             'gender'=>$this->request->getVar('gender'),
             'height'=>$this->request->getVar('height'),
@@ -84,5 +87,14 @@ class Pacientes extends Controller{
         $session->setFlashdata('mensaje','Revisa la información');
         return $this->response->redirect(site_url('/'));//cerrar popup
 
+    }
+    public function detalle($id=null){
+        $paciente= new Paciente();
+        $datos['paciente']=$paciente->where('id',$id)->first();
+
+        $datos['header']= view('template/header');
+        $datos['footer']= view('template/footer');
+
+        return view('detalle', $datos);
     }
 }

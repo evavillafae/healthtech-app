@@ -4,6 +4,7 @@
             <thead class="thead-light" >
                 <tr>
                     <th>Name</th>
+                    <th>Last Name</th>
                     <th>Date of Birth</th>
                     <th>Gender</th>
                     <th>Height</th>
@@ -15,11 +16,13 @@
                 <?php foreach($pacientes as $paciente): ?>
                 <tr>
                     <td><?=$paciente['name']; ?></td>
-                    <td><?=$paciente['date_birth']; ?></td>
+                    <td><?=$paciente['lastname']; ?></td>
+                    <td><?=$paciente['date_birth']= date("d-m-Y", strtotime($paciente['date_birth'])); ?></td>
                     <td><?=$paciente['gender']; ?></td>
                     <td><?=$paciente['height']; ?></td>
                     <td><?=$paciente['weight']; ?></td>
                     <td>
+                        <a href="<?=base_url('detalle/'.$paciente['id'])?>" class="btn btn-info" type="button"><i class="material-icons">visibility</i></a>
                         <a href="<?=base_url('editar/'.$paciente['id'])?>" class="btn btn-primary" type="button"><i class="material-icons">edit</i></a>
                         <a href="<?=base_url('borrar/'.$paciente['id'])?>" class="btn btn-danger" type="button"><i class="material-icons">delete</i></a>
                     </td>

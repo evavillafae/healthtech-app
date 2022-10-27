@@ -7,6 +7,6 @@ class Paciente extends Model{
     protected $table    = 'pacientes';
 
     protected $primaryKey = 'id';
-    protected $allowedFields=['name','date_birth','gender','height','weight'];
+    protected $allowedFields=['name','lastname','date_birth','gender','height','weight'];
     
 }
