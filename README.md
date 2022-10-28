@@ -7,7 +7,7 @@
 
 Es una aplicación web que facilita la tarea del personal de salud al momento de gestionar historias de pacientes, debido a su entorno amigable e intuitivo.
 
-App monolítica MVC, backend desarrollado en php con framework CodeIgniter, estilizado con framework CSS y JS Bootstrap.
+App monolítica MVC, desarrollada bajo un Stack LAMP con backend programado en php utilizando framework CodeIgniter4, estilizado CSS y JS con Bootstrap5.
 
 
 Puedes encontrar la versión online en https://medical.etereoworks.com/ 
