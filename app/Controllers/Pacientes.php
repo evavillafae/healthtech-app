@@ -67,6 +67,7 @@ class Pacientes extends Controller{
          $datosPaciente=$paciente->where('id',$id)->first();
 
          $validacionBorrar=$paciente->where('id',$id)->delete($id);
+         //return $this->response->redirect(site_url('/'));
         
          if($validacionBorrar){
              $sessionExito= session();

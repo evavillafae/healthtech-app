@@ -20,7 +20,7 @@
         }
     ?>
 
-    <h1>Crear historia de paciente</h1>
+    <h2 class="h4">Crear historia de paciente</h2>
 
     <div class="card">
         <div class="card-body">

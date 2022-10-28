@@ -1,6 +1,6 @@
 <?=$header?>
 
-    <h1>Editar historia de paciente</h1>
+    <h2 class="h4">Editar historia de paciente</h2>
     
     <div class="card">
         <div class="card-body">

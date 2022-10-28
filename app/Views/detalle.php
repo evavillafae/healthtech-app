@@ -3,7 +3,7 @@
     
     <main>
         <section class="container">
-            <h1>Detalle de historia</h1>
+            <h2 class="h4">Detalle de historia</h2>
             <div class="row">
                 <div class="col">
                     <h5 class="card-title"><?=$paciente['name']?> <?=$paciente['lastname']?></h5>
@@ -31,11 +31,11 @@
                                 </li>
                                 <li class="list-group-item ">
                                     <h6 class="h6 fw-bold">Estatura:</h6>
-                                    <p><?=$paciente['height']?></p>
+                                    <p><?=$paciente['height']?> m</p>
                                 </li>
                                 <li class="list-group-item">
                                     <h6 class="h6 fw-bold">Peso:</h6>
-                                    <p><?=$paciente['weight']?></p>
+                                    <p><?=$paciente['weight']?> kg</p>
                                 </li>
                             </ul>
                         </div>

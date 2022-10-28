@@ -15,8 +15,41 @@
     <link rel="shortcut icon" href="http://localhost/CodeIgniter/public/favicon.svg">
     <title>Sistema de Pacientes</title>
     <style>
-        *{
+
+        body{
             font-family: 'Poppins', sans-serif;
+            color: #3c3c3c;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+            background-color: #029aca;
+        }
+        .nav-link {
+            color: #029aca;
+        }
+        .nav-pills .nav-pills .show>.nav-link:hover{
+            background-color: #017397;
+        }
+        .nav-link:hover {
+            color: #017397;
+        }
+        .btn-primary{
+            background-color: #029aca;
+            border-color: #029aca;
+        }
+        .btn-primary:hover{
+            background-color: #017397;
+            border-color: #017397;
+        }
+        .btn-warning{
+            color: #ffffff;
+        }
+        .btn-warning:hover{
+            color: #ffffff;
+        }
+        .sistema_name{
+            color: #029aca;
+            font-weight: 600;
+            font-size: 2rem
         }
     </style>
 </head>
@@ -27,13 +60,13 @@
             <img src="http://localhost/CodeIgniter/public/logo-healthtech.svg" alt="Logo HealthTech" width="300">
         </a>
 
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills my-auto">
             <li class="nav-item"><a href="<?=base_url('/')?>" class="nav-link">Inicio</a></li>
             <li class="nav-item"><a href="<?=base_url('crear')?>" class="nav-link active" aria-current="page">Añadir a un nuevo paciente</a></li>
         </ul>
         </header>
-        <h1>Sistema de Pacientes</h1>
+        <h1 class="sistema_name mb-5">Sistema de Pacientes</h1>
   </div>
     
 
-    <div class="container">
+<div class="container">
