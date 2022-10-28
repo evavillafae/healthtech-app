@@ -1,6 +1,6 @@
 # HealthTech App
 
-![Home page de HelathTech]
+[Home page de HelathTech]
 (https://raw.githubusercontent.com/evavillafae/healthtech-app/master/assets/healthtech.jpg)
 
 
