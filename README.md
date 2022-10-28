@@ -1,7 +1,6 @@
 # HealthTech App
 
-[Home page de HelathTech]
-(https://raw.githubusercontent.com/evavillafae/healthtech-app/master/assets/healthtech.jpg)
+![Home page de HelathTech](https://raw.githubusercontent.com/evavillafae/healthtech-app/master/assets/healthtech.jpg)
 
 
 ## ¿Qué es HealthTech App?
