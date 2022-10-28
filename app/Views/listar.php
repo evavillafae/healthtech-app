@@ -1,5 +1,22 @@
 <?=$header?>
-
+<?php if(session('mensajeExito')){?>
+        <div class="alert alert-success " role="alert">
+            <?php
+                echo session('mensajeExito');
+            ?>
+        </div>
+    <?php
+        }
+    ?>
+    <?php if(session('mensaje')){?>
+        <div class="alert alert-danger " role="alert">
+            <?php
+              echo session('mensaje');
+            ?>
+        </div>
+    <?php
+        }
+    ?>
         <table class="table table-light" >
             <thead class="thead-light" >
                 <tr>

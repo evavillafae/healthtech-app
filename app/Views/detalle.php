@@ -79,19 +79,12 @@
                                 }
                             }
                             $altura=$paciente['height'];
-                            // function fibonacci($n)
-                            // {
-                            
-                            // for($i=0;$i<=$n;$i++)
-                            //     {
-                            //         $fibonacci = $i + $i;
-
-                            //     }
-
-                            // }
-
+ 
                             function fibonacci($fn){
-                                return round(pow((sqrt(5)+1)/2, $fn) / sqrt(5));
+                            //Serie: 0,1,1,2,3,5,8,13,21,34,55,89,144,233 etc
+                                $golden_ratio= sqrt(5)+1/2;
+            
+                                return round((pow($golden_ratio, $fn)) - (pow($golden_ratio, $fn)) / sqrt(5));
                             };
 
                             $cantidad = $altura;
@@ -112,7 +105,7 @@
                             }
                             
                             if(edad($fecha_paciente)>18){
-                                echo "Hola ",$paciente['name'],", eres ",sexo($sexo)," persona muy saludable, te recomiendo comer ",comer($peso)," y salir a correr ",correr($fecha)," km diario",plural(correr($fecha)),".";
+                                echo "Hola ",$paciente['name'],", eres una persona muy saludable, te recomiendo comer ",comer($peso)," y salir a correr ",correr($fecha)," km diario",plural(correr($fecha)),".";
                             } else {
                                 
                                 echo "Hola ",$paciente['name'],", eres ",sexo($sexo)," joven muy saludable, te recomiendo comer ",comer($peso)," y salir a jugar al aire libre durante ",fibonacci($altura)," hora",plural(fibonacci($altura))," diaria",plural(fibonacci($altura)),".";

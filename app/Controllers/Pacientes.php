@@ -26,22 +26,6 @@ class Pacientes extends Controller{
 
         $paciente= new Paciente();
 
-        $validacion = $this->validate([
-            'name'=>'required|min_length[3]',
-            'lastname'=>'required|min_length[3]',
-            'date_birth'=>'required',
-            'gender'=>'required',
-            'height'=>'required',
-            'weight'=>'required'
-        ]);
-
-        if(!$validacion){
-            $session= session();
-            $session->setFlashdata('mensaje','Revisa la información');
-            return redirect()->back()->withInput();
-            //return $this->response->redirect(site_url('/'));
-        };
-
         $datos=[
             'name'=>$this->request->getVar('name'),
             'lastname'=>$this->request->getVar('lastname'),
@@ -50,17 +34,50 @@ class Pacientes extends Controller{
             'height'=>$this->request->getVar('height'),
             'weight'=>$this->request->getVar('weight')
         ];
-        $paciente->insert($datos);
 
-        return $this->response->redirect(site_url('/'));
+        
+
+        $validacionCrear = $this->validate([
+            'name'=>'required|min_length[3]',
+            'lastname'=>'required|min_length[3]',
+            'date_birth'=>'required',
+            'gender'=>'required',
+            'height'=>'required',
+            'weight'=>'required'
+        ]);
+
+        if($validacionCrear){
+            $sessionExito= session();
+            $sessionExito->setFlashdata('mensajeExito','¡Felicidades! has añadido con éxito una nueva historia.');
+            $paciente->insert($datos);
+            return redirect()->back();
+        }
+
+        else{
+            $session= session();
+            $session->setFlashdata('mensaje','Por favor, verifica la información proporcionada.');
+            return redirect()->back()->withInput();
+        };
+
+        //return $this->response->redirect(site_url('/'));
     }
     public function borrar($id=null){
 
-        $paciente= new Paciente();
-        //$datosPaciente=$paciente->where('id',$id)->first();
+         $paciente= new Paciente();
+         $datosPaciente=$paciente->where('id',$id)->first();
 
-        $paciente->where('id',$id)->delete($id);
-        return $this->response->redirect(site_url('/'));
+         $validacionBorrar=$paciente->where('id',$id)->delete($id);
+        
+         if($validacionBorrar){
+             $sessionExito= session();
+             $sessionExito->setFlashdata('mensajeExito','¡Felicitaciones! has eliminado esta historia con éxito.');
+             return $this->response->redirect(site_url('/'));
+         } else {
+              $session= session();
+             $session->setFlashdata('mensaje','Lo sentimos, hubo un error al intentar eliminar esta historia :(');
+             return $this->response->redirect(site_url('/'));
+        }
+
     }
     public function editar($id=null){
         $paciente= new Paciente();
@@ -82,10 +99,32 @@ class Pacientes extends Controller{
             'weight'=>$this->request->getVar('weight')
         ];
         $id= $this->request->getVar('id');
-        $paciente->update($id,$datos);
-        $session= session();
-        $session->setFlashdata('mensaje','Revisa la información');
-        return $this->response->redirect(site_url('/'));//cerrar popup
+
+        $validacionAct = $this->validate([
+            'name'=>'required|min_length[3]',
+            'lastname'=>'required|min_length[3]',
+            'date_birth'=>'required',
+            'gender'=>'required',
+            'height'=>'required',
+            'weight'=>'required'
+        ]);
+
+        if($validacionAct){
+            $sessionExito= session();
+            $sessionExito->setFlashdata('mensajeExito','¡Felicitaciones! has actualizado los datos de la historia con éxito.');
+            $paciente->update($id,$datos);
+            return $this->response->redirect(site_url('/'));
+
+        }
+        
+
+        else{
+            $session= session();
+            $session->setFlashdata('mensaje','Ups:( hubo un error. Por favor, verifica la información proporcionada.');
+            return redirect()->back()->withInput();
+        };
+
+        
 
     }
     public function detalle($id=null){

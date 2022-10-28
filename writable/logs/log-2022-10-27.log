@@ -1002,3 +1002,320 @@ in APPPATH\Views\detalle.php on line 112.
  8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
  9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:19:36 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:19:52 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:20:01 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:21:08 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:21:15 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:21:25 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:21:44 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:21:56 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 18:22:52 --> Undefined variable $validation
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 19:05:44 --> syntax error, unexpected token "(", expecting ":"
+in APPPATH\Controllers\Pacientes.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pacientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pacientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pacientes')
+ 4 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Pacientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 19:11:28 --> syntax error, unexpected token "(", expecting ":"
+in APPPATH\Controllers\Pacientes.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pacientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pacientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pacientes')
+ 4 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Pacientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 19:24:12 --> Call to undefined method App\Models\Paciente::borrar
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Pacientes.php(69): CodeIgniter\Model->__call('borrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->borrar('35')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 19:24:38 --> Call to undefined method App\Models\Paciente::borrar
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Pacientes.php(70): CodeIgniter\Model->__call('borrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->borrar('35')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 19:24:39 --> Call to undefined method App\Models\Paciente::borrar
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Pacientes.php(70): CodeIgniter\Model->__call('borrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->borrar('35')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 19:55:13 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Pacientes.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pacientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pacientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pacientes')
+ 4 SYSTEMPATH\CodeIgniter.php(852): class_exists('\\App\\Controllers\\Pacientes', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:03:07 --> Undefined variable $datos
+in APPPATH\Controllers\Pacientes.php on line 41.
+ 1 APPPATH\Controllers\Pacientes.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Controllers\\Pacientes.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:04:50 --> Undefined variable $datos
+in APPPATH\Controllers\Pacientes.php on line 41.
+ 1 APPPATH\Controllers\Pacientes.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Controllers\\Pacientes.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:06:13 --> Undefined variable $validacionCrear
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validacionCrear', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:06:17 --> Undefined variable $validacionCrear
+in APPPATH\Controllers\Pacientes.php on line 38.
+ 1 APPPATH\Controllers\Pacientes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validacionCrear', 'APPPATH\\Controllers\\Pacientes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:07:13 --> Undefined variable $validacionCrear
+in APPPATH\Controllers\Pacientes.php on line 49.
+ 1 APPPATH\Controllers\Pacientes.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validacionCrear', 'APPPATH\\Controllers\\Pacientes.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:07:34 --> Undefined variable $validacionCrear
+in APPPATH\Controllers\Pacientes.php on line 49.
+ 1 APPPATH\Controllers\Pacientes.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validacionCrear', 'APPPATH\\Controllers\\Pacientes.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:43:36 --> Undefined variable $fibonacci
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fibonacci', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:43:38 --> Undefined variable $fibonacci
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fibonacci', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:00 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:01 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:02 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:03 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:04 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:33 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:34 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:44:45 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:46:11 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:46:12 --> Undefined array key -1
+in APPPATH\Views\detalle.php on line 86.
+ 1 APPPATH\Views\detalle.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'APPPATH\\Views\\detalle.php', 86)
+ 2 APPPATH\Views\detalle.php(117): fibonacci('0.40')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 6 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:51:49 --> Undefined variable $fn
+in APPPATH\Views\detalle.php on line 93.
+ 1 APPPATH\Views\detalle.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fn', 'APPPATH\\Views\\detalle.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detalle.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 5 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-27 20:52:41 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Views\detalle.php on line 95.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('detalle', [], true)
+ 3 APPPATH\Controllers\Pacientes.php(138): view('detalle', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pacientes->detalle('54')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pacientes))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
