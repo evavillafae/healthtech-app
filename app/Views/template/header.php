@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,58 +16,68 @@
     <link rel="shortcut icon" href="http://localhost/CodeIgniter/public/favicon.svg">
     <title>Sistema de Pacientes</title>
     <style>
-
-        body{
+        body {
             font-family: 'Poppins', sans-serif;
             color: #3c3c3c;
         }
-        .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
             background-color: #029aca;
         }
+
         .nav-link {
             color: #029aca;
         }
-        .nav-pills .nav-pills .show>.nav-link:hover{
+
+        .nav-pills .nav-pills .show>.nav-link:hover {
             background-color: #017397;
         }
+
         .nav-link:hover {
             color: #017397;
         }
-        .btn-primary{
+
+        .btn-primary {
             background-color: #029aca;
             border-color: #029aca;
         }
-        .btn-primary:hover{
+
+        .btn-primary:hover {
             background-color: #017397;
             border-color: #017397;
         }
-        .btn-warning{
+
+        .btn-warning {
             color: #ffffff;
         }
-        .btn-warning:hover{
+
+        .btn-warning:hover {
             color: #ffffff;
         }
-        .sistema_name{
+
+        .sistema_name {
             color: #029aca;
             font-weight: 600;
             font-size: 2rem
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="<?=base_url('/')?>" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <img src="http://localhost/CodeIgniter/public/logo-healthtech.svg" alt="Logo HealthTech" width="300">
-        </a>
+            <a href="<?= base_url('/') ?>" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="http://localhost/CodeIgniter/public/logo-healthtech.svg" alt="Logo HealthTech" width="300">
+            </a>
 
-        <ul class="nav nav-pills my-auto">
-            <li class="nav-item"><a href="<?=base_url('/')?>" class="nav-link">Inicio</a></li>
-            <li class="nav-item"><a href="<?=base_url('crear')?>" class="nav-link active" aria-current="page">Añadir a un nuevo paciente</a></li>
-        </ul>
+            <ul class="nav nav-pills my-auto">
+                <li class="nav-item"><a href="<?= base_url('/') ?>" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="<?= base_url('crear') ?>" class="nav-link active" aria-current="page">Añadir a un nuevo paciente</a></li>
+            </ul>
         </header>
         <h1 class="sistema_name mb-5">Sistema de Pacientes</h1>
-  </div>
-    
+    </div>
 
-<div class="container">
+
+    <div class="container">
